@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.776edb82.chunk.js",
-    "main.js.map": "/static/js/main.776edb82.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.03d34e63.js",
-    "runtime-main.js.map": "/static/js/runtime-main.03d34e63.js.map",
-    "static/js/2.9f8a4c85.chunk.js": "/static/js/2.9f8a4c85.chunk.js",
-    "static/js/2.9f8a4c85.chunk.js.map": "/static/js/2.9f8a4c85.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2b6a79140fdea38d33d4da489dceeafe.js": "/precache-manifest.2b6a79140fdea38d33d4da489dceeafe.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.9f8a4c85.chunk.js.LICENSE.txt": "/static/js/2.9f8a4c85.chunk.js.LICENSE.txt"
+    "main.js": "/AgeCalc/static/js/main.776edb82.chunk.js",
+    "main.js.map": "/AgeCalc/static/js/main.776edb82.chunk.js.map",
+    "runtime-main.js": "/AgeCalc/static/js/runtime-main.1f99220b.js",
+    "runtime-main.js.map": "/AgeCalc/static/js/runtime-main.1f99220b.js.map",
+    "static/js/2.9f8a4c85.chunk.js": "/AgeCalc/static/js/2.9f8a4c85.chunk.js",
+    "static/js/2.9f8a4c85.chunk.js.map": "/AgeCalc/static/js/2.9f8a4c85.chunk.js.map",
+    "index.html": "/AgeCalc/index.html",
+    "precache-manifest.b6ee96373888b13f5e582cc0f2462c49.js": "/AgeCalc/precache-manifest.b6ee96373888b13f5e582cc0f2462c49.js",
+    "service-worker.js": "/AgeCalc/service-worker.js",
+    "static/js/2.9f8a4c85.chunk.js.LICENSE.txt": "/AgeCalc/static/js/2.9f8a4c85.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.03d34e63.js",
+    "static/js/runtime-main.1f99220b.js",
     "static/js/2.9f8a4c85.chunk.js",
     "static/js/main.776edb82.chunk.js"
   ]
