@@ -8,13 +8,14 @@ export default class YearBox extends React.Component {
   state = {
     reign: 1368,
     tiangan: 4,
-    dizhi: 8
+    dizhi: 8,
+    year: 1368
   }
 
   render() {
     return (
       <div>
-        {this.props.value}: {this.getYear()}
+        {this.props.value}: {this.state.year}
         <ReignTitleSelectBox onChange={this.handleReignChange} />
         <TianGanSelectBox onChange={this.handleTianGanChange} />
         <DiZhiSelectBox onChange={this.handleDiZhiChange} />
@@ -25,19 +26,26 @@ export default class YearBox extends React.Component {
   handleReignChange = (reign) => {
     this.setState({
       reign: reign
-    })
+    }, this.updateYear);
   }
 
   handleTianGanChange = (tiangan) => {
     this.setState({
       tiangan: tiangan
-    })
+    }, this.updateYear);
   }
 
   handleDiZhiChange = (dizhi) => {
     this.setState({
       dizhi: dizhi
-    })
+    }, this.updateYear);
+  }
+
+  updateYear = () => {
+    let year = this.getYear()
+    this.setState({
+      year: year
+    });
   }
 
   getYear = () => {
@@ -51,7 +59,8 @@ export default class YearBox extends React.Component {
         break;
       }
     }
-    console.log(jiaziCount, ganzhi);
-    return 1324 + jiaziCount * 60 + ganzhi;
+    let year = 1324 + jiaziCount * 60 + ganzhi;
+    this.props.onChange(year);
+    return year;
   }
 }
